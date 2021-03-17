@@ -1,6 +1,6 @@
 #!/bin/sh
 docker build -t hitcon_training - <<DOCKERFILE_EOF || exit 1
-from ubuntu
+from ubuntu:16.04
 run apt-get update
 run apt-get install -y git sudo bash make nano
 run dpkg --add-architecture i386
