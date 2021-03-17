@@ -14,8 +14,3 @@ sudo apt-get -y install gdb libffi-dev
 sudo pip install --upgrade capstone -i https://pypi.douban.com/simple
 sudo pip install --upgrade pwntools -i https://pypi.douban.com/simple
 sudo pip install ropgadget -i https://pypi.douban.com/simple
-git clone https://github.com/scwuaptx/peda.git ~/peda 
-cp ~/peda/.inpurc ~/
-git clone https://github.com/scwuaptx/Pwngdb.git
-cp ~/Pwngdb/.gdbinit ~/
-git clone https://github.com/JonathanSalwan/ROPgadget
