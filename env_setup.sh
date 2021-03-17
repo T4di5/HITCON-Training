@@ -14,3 +14,5 @@ sudo apt-get -y install gdb libffi-dev
 sudo pip install --upgrade capstone -i https://pypi.douban.com/simple
 sudo pip install --upgrade pwntools -i https://pypi.douban.com/simple
 sudo pip install ropgadget -i https://pypi.douban.com/simple
+cp ~/peda/.inpurc ~/
+cp ~/Pwngdb/.gdbinit ~/
